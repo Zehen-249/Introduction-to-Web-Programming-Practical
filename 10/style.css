@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 100vw;
+    background-color: bisque;
+}
+.container form{
+    background-color: rgb(196, 153, 89);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 100px;
+}
+.operands{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.operands input{
+    padding: 10px;
+    background-color:aquamarine;
+    border: none;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+.operators{
+    display: flex;
+    gap: 10px   ;
+    
+}
+.operators input{
+    background-color: rgb(223, 223, 138);
+    border: none;
+    padding: 6px;
+    width: 30px;
+}
+
+.result{
+    padding: 10px;
+    padding-left: 30px;
+    border: 2px solid burlywood;
+}

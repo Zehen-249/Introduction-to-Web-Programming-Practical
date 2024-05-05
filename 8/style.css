@@ -1,0 +1,27 @@
+header nav{ 
+    display: flex;
+    gap: 100px;
+}
+.logo h1{
+    margin-left: 40px;
+}
+nav ul{
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

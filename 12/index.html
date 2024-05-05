@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Question 7</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Student Registration Form</h1>
+        <form action="" id="form" onsubmit="return validateForm()">
+            <div class="div">
+                <input type="text" name="fName" id="fName" placeholder="First Name ">
+                <input type="text" name="lName" id="lName" placeholder="Last Name ">
+                <input type="number" placeholder="Enter Roll Number" name="rollno" id="rollno">
+                <textarea type="textarea" name="address" id="address" placeholder="Enter Address"></textarea><br>
+            </div>
+                <label for="">Choose Your Year</label><br>
+                <input type="radio" name="year" id="1st" value="1st">
+                <label for="1st">First Year</label>
+                <input type="radio" name="year" id="2nd" value="2nd">
+                <label for="2nd">Second Year</label>
+                <input type="radio" name="year" id="3rd" value="3rd">
+                <label for="3rd">Third Year</label>
+    
+           
+                <label for="">Choose your Courses</label>
+                <input type="checkbox" name="courses" id="Mechanics" value="Mechanics">
+                <label for="Mechanics">Mechancs</label>
+                <input type="checkbox" name="courses" id="DBMS" value="DBMS">
+                <label for="DBMS">DBMS</label>
+  <br>
+            <input type="reset" >
+            <input type="submit" >
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

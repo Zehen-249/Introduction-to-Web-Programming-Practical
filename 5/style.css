@@ -1,0 +1,10 @@
+thead tr{
+    background-color: bisque;
+}
+
+table td,th{
+    padding: 10px;
+    text-align: center;
+    width: 100px;
+    height:25px;
+}

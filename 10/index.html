@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 10</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <form action="">
+            <div class="operands">
+                <input type="number" id="number1" placeholder="Number 1" value="0">
+                <input type="number" id="number2" placeholder="Number 2" value="0">
+            </div>
+            <div class="operators">
+                <input type="button" value="+" class="operator" onclick="sum()">
+                <input type="button" value="-" class="operator" onclick="diff()">
+                <input type="button" value="*" class="operator" onclick="multi()">
+                <input type="button" value="/" class="operator" onclick="div()">
+            </div>
+        </form>
+        <div class="result">
+        <h1>0</h1>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
